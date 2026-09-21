@@ -2874,7 +2874,20 @@ sites:
       University of Nottingham
     maintainers:
       - "Chris Gell"
-
+      
+ - name: "Spectral-Unmixer"
+    id: "Spectral-Unmixer"
+    url: "https://sites.imagej.net/Spectral-Unmixer/"
+    description: >-
+      Plugin for spectral unmixing of hyperspectral image stacks. Has two independent 
+      pathaways - supervised ROI-based endmember extraction with Manual Compute spectral 
+      subtraction, and unsupervised Vertex Component Analysis (VCA). Per-pixel abundance 
+      estimation uses OLS or NNLS solvers. Outputs per-component 32-bit abundance maps 
+      and a multi-colour composite RGB image. Reads any Bio-Formats-compatible stack 
+      including PerkinElmer .im3 files. 
+    maintainers:
+      - "[Milena Ghazaryan](https://github.com/milenaxgh/)"
+      
   - name: "SpermQ"
     id: "SpermQ"
     url: "https://sites.imagej.net/SpermQ/"
